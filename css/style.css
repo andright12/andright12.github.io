@@ -1,5 +1,15 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
 
+#button1 {
+	color: red;
+	background-color: #19FFC9;
+}
+.menu {
+	position: absolute;
+	width: 311px;
+	margin-top: 100px;
+	font-size: 40px;
+}
 #content
 {
 	text-align: center;
@@ -19,11 +29,6 @@ img {
 .header {
 	background-color: #19FFC9;
 	height: 90px;
-}
-.navbar-nav.menu {
-	margin-top: 20px;
-	margin-left: 97px;
-	font-size: 25px;
 }
 #button {
 	color: red;
@@ -49,4 +54,12 @@ img {
        -o-transform: rotate(360deg);
       -ms-transform: rotate(360deg);
           transform: rotate(360deg);
+}
+
+#arrow {
+	font-size: 45px;
+	margin-left: 545px;
+}
+#textarrow {
+	margin-left: 528px;
 }
