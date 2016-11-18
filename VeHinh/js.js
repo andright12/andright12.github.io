@@ -1,6 +1,6 @@
 // Bai tap 1
 
- function printTrigangle(n) 
+function printTrigangle(n) 
 {
 	var str = '';
 	for (var i = 0; i <n; i++) {
