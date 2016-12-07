@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bai_Tap_Ve_Hinh</title>
+		<meta charset="utf-8">	
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/font-awesome.min.css">       
+	</head>
+	<body>		  		
+		  <div class="container" id = "body">		  		
+		  		<div class="row">
+		  		    <div class="col-md-4">	
+		  			 <div class ="cot">		  				
+		  				<h3 id ="doanvan1">Trên không, vài con cò về tổ trễ đập nhanh đôi cánh trắng phau rồi khuất trong lùm cây rậm lá. Những đám mây trắng đá ngả màu ngà, bầu trời xanh cũng đã ngả sang màu sậm đưa đến màu đen. Đâu đó có tiếng chim lẻ bạn, tiếng dơi muỗi lào xào lẫn trong tiếng gió nhẹ lay cành. Dưới bến sông, con nước ròng lên đầy mé đã đứng lại không lùa được những đợt lục bình lờ lững giữa dòng ra sông cái. Dòng nước xanh chìm đi trong màu xám sậm và những bóng cây bên bờ kia ngả xuống dòng càng lúc càng hiện rõ lù lù thành hàng trong bóng nước.</h3> 	  				
+		  			 </div> 
+		  			</div>
+		  			<div class="col-md-4">	
+		  			  <div class ="cot">
+		  				 <h3 id ="doanvan2">Mặt trăng tròn vành vạnh từ từ nhô lên sau luỹ tre. Trăng đêm nay sáng quá ! Bầu trời điểm xuyết một vài ngôi sao lấp lánh như những con đom đóm nhỏ. Ánh trăng tàng dịu mát tỏa xuống, chảy loang lổ trên mặt đất, trên các cành cây ngọn cỏ … Không gian mới yên tĩnh làm sao ! Chỉ còn tiếng sương đêm rơi lốp bốp trên lá cây và tiếng côn trùng ra rả trong đất ẩm. Chị gió chuyên cần nhẹ nhàng bay làm rung mấy ngọn xà cừ ven đường. Thoang thoảng đâu đây mùi hoa thiên lí dịu dàng lan tỏa… Đêm trăng thật đẹp và êm đềm.</h3> 
+		  			   </div>
+		  			</div>
+		  			<div class="col-md-4">	
+		  			    <div class ="cot">
+		  				<h3 id ="doanvan3">Thế nào là một đoạn văn? Về nội dung, đoạn văn là một phần của văn bản, nó diễn đạt ý hoàn chỉnh ở một mức độ nào đó logic ngữ nghĩa, có thể nắm bắt được một cách tương đối dễ dàng. Về hình thức, đoạn văn luôn luôn hoàn chỉnh. Sự hoàn chỉnh đó thể hiện ở những điểm sau: Một đoạn văn được bắt đầu từ chữ cái viết hoa lùi đầu dòng đến chỗ chấm xuống dòng.</h3> 
+		  			    </div>
+		  			</div>		  			
+		  		 </div>
+		  		<br>
+		  		<div class="row">
+		  			<div class="col-md-2">
+		  			   <div class="cot1">
+		  			   <input id="value1" type="text" name="bai_so_1" placeholder="Nhập X" size="10" maxlength="150">		  			    
+		  			    <button type="button" onclick="changeFontSize()">changeFontSize</button>	
+		  			    <p><span id ="null"></span></p>	  			  
+		  			   </div>
+		  			</div>
+		  			<div class="col-md-2">
+		  			   <div class="cot1">
+		  			   <input id="value2" type="text" name="bai_so_1" placeholder="Nhập lần lượt 1,2,3" size="20" maxlength="150">
+		  			   <button type="button" onclick="increaseFontSize()">increaseFontSize
+		  				</button>
+		  			   </div>		  			
+		  			</div>
+		  			<div class="col-md-2">	
+		  			   <div class="cot1">
+		  			   <input id="value3" type="text" name="bai_so_1" placeholder="Nhập lần lượt 1,2,3" size="20" maxlength="150">
+		  			     <button type="button" onclick="decreaseFontSize()">decreaseFontSize
+		  			     </button>	
+		  			   </div>  			    
+		  			</div>
+		  			<div class="col-md-2">
+		  			   <div class="cot1">
+		  			       <button type="button" onclick="changeColor()">changeColor</button>		  			    
+		  			   </div>
+		  			 </div>
+		  			<div class="col-md-2">	
+		  			    <div class="cot1">
+		  			        <button type="button" onclick="changeBgColor()">changeBgColor</button>	  			    
+		  			    </div>
+		  			 </div>
+		  			<div class="col-md-2">		
+		  			     <div class="cot1">		  			
+		  				     <button type="button" onclick="copyContent()">copyContent</button>
+		  				 </div>
+		  			</div>
+		  		</div>
+		  		<br>
+		  		<div class="row">
+		  			<div class="col-md-3">
+		  			</div>		  		
+		  			<div class="col-md-3">
+		  			</div>
+		  			<div class="col-md-3">
+		  			</div>
+		  			<div class="col-md-3">
+		  			</div>
+		  		</div>
+		  <div>
+		  <script src="js.js"></script>
+	</body>
+</html

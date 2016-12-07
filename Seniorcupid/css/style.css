@@ -1,0 +1,196 @@
+@import "stylemyprofile.css";
+
+.menu
+{
+    border-radius: 0px;
+}
+#logo
+{
+    color: #FFFFFF;
+    font-style: italic;
+}
+#logo-middle
+{
+    margin-left: 151px;
+    color: #FFFFFF;
+    font-size: 80px;
+}
+#sign
+{
+    width: 135px;
+    margin-top: 25px;
+    color: #7526DC ;
+}
+#changelang
+{
+    margin-top: 28px;
+    color: #7526DC ;
+    font-size: 10px;
+}
+#imagecontent
+{
+    width: 100%;
+}
+#maincontent
+{
+    padding: 0;
+    position: relative;
+}
+.search
+{
+    position: absolute;
+    height:500px;
+    width: 420px;
+    background-color: rgba(255,255,255,0);
+    top:55px;
+    border: 3px solid #7526DC;
+    border-radius: 15px;
+}
+.search-top {
+    width: 100%;
+    height: 75px;
+    background-color: #7526DC ;
+    border-radius: 8px
+}
+#search-title {
+    color:white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+}
+.search ul {
+    padding: 25px;
+    width: 100%;
+    float: left;
+}
+.search ul li {
+    width: 100%;
+    float: left;
+    padding: 15px 0;
+    list-style: none;
+}
+.search ul li label {
+    float: left;
+    text-align: right;
+    padding-right: 34px;
+    width: 167px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: -1px;
+    font-size: 17px;
+}
+.search ul li div {
+    margin: 0 0 0 125px;
+}
+.hp_width15 {
+    padding: 0 15px;
+}
+.hp_se102
+{
+    width: 30%;
+}
+#r_country
+{
+    width: 68%;
+}
+#match_r_state_id
+{
+    width: 68%;
+}
+.hp_btnfindmatch
+{
+    text-align: center;
+}
+#buttonfindmatch {
+    width: 235px;
+    height: 42px;
+    border: 0px;
+    cursor: hand;
+    cursor: pointer;
+    background-color: #7526DC;
+    color: #FFFFFF;
+}
+#maincontent2{
+    height:500px;
+    background-color: #eef1f2
+}
+.insidemaincontent2 {
+    height: 400px;
+    margin-top: 50px;
+}
+#maincontent2 .insidemaincontent2 div h3
+{
+    color: #7526DC;
+    font-style: italic;
+    text-align: center;
+    height: 50px;
+}
+#maincontent2 .insidemaincontent2 div img
+{
+    border-radius: 50%;
+    margin-top: 50px;
+}
+#maincontent2 .insidemaincontent2 div div
+{
+    text-align: center;
+}
+#maincontent3
+{
+    background-color: #eef1f2;
+    padding: 0;
+}
+#bordermaincontent2
+{
+    background-color: #eef1f2
+}
+#maincontent3 .insidecontent3 div
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#maincontent3 .insidecontent3 div h1
+{
+    font-style: italic;
+    text-align: center;
+    color: #7526DC;
+}
+#maincontent3 .insidecontent3 div p
+{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 40px;
+}
+#footer {
+    background: #333;
+    padding: 50px 0;
+    font-size: 15px;
+    color: #d8d7d7;
+}
+.footercontent {
+    margin: 0 auto;
+    max-width: 1100px;
+}
+#footer .footercontent dl
+{
+    width: 25%;
+    float: left;
+    color: #a2a1a1;
+}
+#footer .footercontent dl dt
+{
+    font-size: 18px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+#footer .footercontent dl dd a{
+    color: #d8d7d7;
+    text-decoration: none;
+    line-height: 22px;
+}
+#footer .footercontent dl dd i {
+    margin-left: 10px;
+    font-size: 25px;
+}
+.carousel-control {
+    background-color: #7526DC;
+}
