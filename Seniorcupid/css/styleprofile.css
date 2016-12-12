@@ -1,0 +1,110 @@
+#menuwrapper {
+    border-radius: 0px;
+    background-color: #1523A1;
+}
+#menuwrapper #menu_mypf #myNavbar ul li a {
+    color: #ffffff;
+}
+#menuwrapper #menu_mypf #myNavbar ul li a:hover {
+    background-color: #0B1679;
+}
+#menuwrapper #menu_mypf .navbar-header a:hover {
+    background-color: #18206B;
+}
+#menuwrapper #menu_mypf #myNavbar ul li ul li a {
+    color:#0B1679;
+    background-color: #FFFFFF;
+}
+#menuwrapper #menu_mypf #myNavbar ul li ul li a:hover {
+    color:red;
+    background-color: #FFFFFF;
+}
+.navbar-header .navbar-toggle {
+    border-color: #FFFFFF;
+    background-color: #0B1679;
+}
+.navbar {
+    margin-bottom: 0px;
+}
+#signin_content {
+    height: 48px;
+    background-color: #D8DAE5;
+}
+#contentwrapper{
+    padding: 0;
+    background-color: #CBCBCB;
+}
+#top_content {
+    margin-top: 45px;
+}
+
+#contentwrapper #maincontent #top_content #top_content1 .menu-right ul li a {
+    color:black;
+    text-decoration: none;
+}
+#contentwrapper #maincontent #top_content #top_content1 .menu-right ul li a:hover {
+    color:#949090 ;
+}
+#contentwrapper #maincontent #top_content #top_content1 .menu-right ul li {
+    margin-bottom: 15px;
+}
+.nav-tabs li a {
+    border-radius: 0px;
+}
+#contentwrapper #maincontent #top_content #top_content2 div div div p {
+    float: left;
+}
+#footer {
+    background: #333;
+    padding: 50px 0;
+    font-size: 15px;
+    color: #d8d7d7;
+}
+.footercontent {
+    margin: 0 auto;
+    max-width: 1100px;
+}
+#footer .footercontent dl
+{
+    width: 25%;
+    float: left;
+    color: #a2a1a1;
+}
+#footer .footercontent dl dt
+{
+    font-size: 18px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+#footer .footercontent dl dd a{
+    color: #d8d7d7;
+    text-decoration: none;
+    line-height: 22px;
+}
+#footer .footercontent dl dd i {
+    margin-left: 10px;
+    font-size: 25px;
+}
+.carousel-control {
+    background-color: #7526DC;
+}
+#ket_ban {
+    border-radius: 5px;
+    border: 1px solid red;
+}
+#middle-content {
+    border-radius: 5px;
+    background-color: #D8DAE5;
+    margin-top: 50px;
+}
+#contentwrapper #maincontent #middle-content h4 {
+    color: red;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+#contentwrapper #maincontent #middle-content p {
+    margin-left: 15px;
+}
+.bold {
+    font-weight: bold;
+}
